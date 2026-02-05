@@ -1,0 +1,64 @@
+.card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease !important; 
+     box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
+} 
+.card:hover {
+    /* transform: translateY(-5px) !important;  */
+    transform: scale(1.05) !important;
+}
+
+.btn:hover{
+/* transform: scale(1.1) !important; */
+ text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.btnrainy, .btnwindy, .btnerror{
+    background-color: rgb(3, 51, 58);
+    color: white;
+}
+.btnrainy:hover{
+   background-color: rgb(0, 144, 163);
+    color: white;
+}
+
+.btnerror:hover{
+   background-color: rgb(0, 144, 163);
+    color: white;
+}
+
+.btnsnowy{
+    background-color: rgb(151, 118, 87);
+     color: white;
+}
+
+.btnsnowy:hover{
+     background-color: rgb(4, 42, 73);
+     color: white;
+}
+
+.btnwindy:hover{
+   background-color: rgb(94, 114, 4);
+    color: white; 
+}
+
+.btnstormy{
+    background-color: rgb(53, 49, 10);
+     color: white; 
+}
+
+.btnstormy:hover{
+      background-color:  rgb(219, 211, 146);
+    color: black;
+ 
+}
+
+.btnbow{
+      background-color: rgb(108, 2, 122);
+    color: white;
+}
+
+.btnbow:hover{
+     background-color: rgb(68, 0, 77);
+    color: white;
+}
+
